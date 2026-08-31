@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\mine\PlayStoreApps\CBSE_Class_6_v20\app"
+    name=":app"
+    type="APP"
+    maven="CBSE_Class_6_v20:app:unspecified"
+    agpVersion="9.2.1"
+    buildFolder="build"
+    bootClassPath="C:\Users\innagup1\AppData\Local\Android\sdk\platforms\android-37.0\android.jar;C:\Users\innagup1\AppData\Local\Android\sdk\build-tools\36.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-37.0"
+    neverShrinking="true"
+    highlightGradualR8Api="false">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

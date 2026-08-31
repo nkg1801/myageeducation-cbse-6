@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myAgeEducation.cbseClass6New.test" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="37" />
+
+    <instrumentation
+        android:name="androidx.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.myAgeEducation.cbseClass6New"
+        android:targetPackage="com.myAgeEducation.cbseClass6New" />
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="false" />
+
+</manifest>

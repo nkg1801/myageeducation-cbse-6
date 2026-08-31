@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.myAgeEducation.cbseClass6New",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 19,
+      "versionName": "19",
+      "enabled": true,
+      "outputFile": "cbse-6_v19.apk"
+    }
+  ]
+}

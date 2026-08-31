@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.myAgeEducation.cbseClass6New.app-mergeReleaseResources-30:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\innagup1\\.gradle\\caches\\9.4.1\\transforms\\9a544d3ef506f1cef16f0f4cf141bdea\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

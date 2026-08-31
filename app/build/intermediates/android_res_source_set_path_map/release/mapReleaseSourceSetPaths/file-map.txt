@@ -1,0 +1,9 @@
+com.myAgeEducation.cbseClass6New.app-pngs-0 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\build\generated\res\pngs\release
+com.myAgeEducation.cbseClass6New.app-res-1 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\build\generated\res\processReleaseGoogleServices
+com.myAgeEducation.cbseClass6New.app-updated_navigation_xml-2 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\build\generated\updated_navigation_xml\release
+com.myAgeEducation.cbseClass6New.app-packageReleaseResources-3 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.myAgeEducation.cbseClass6New.app-packageReleaseResources-4 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.myAgeEducation.cbseClass6New.app-release-5 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.myAgeEducation.cbseClass6New.app-main-6 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\src\main\res
+com.myAgeEducation.cbseClass6New.app-release-7 C:\mine\PlayStoreApps\CBSE_Class_6_v20\app\src\release\res
+gradleHome-0 C:\Users\innagup1\.gradle

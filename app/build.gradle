@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    namespace 'com.myAgeEducation.cbseClass6New'
+    compileSdkVersion 37
+
+    /*Version Details:
+        19: Cuemaths ads removed
+        18: V17 removed from play store because of IttyBitty ad in the GetMore Section, so this version
+        17: Quereka lite ad integrated
+        16: Integration of CueMaths Olympiad Ads
+        15: Integration of CueMaths Ads
+        14: v13 was rejected due to Stock Trading ad in the banner. Ad Content Rating set to "G".
+        13. v12 was rejected due to presence of IttyBitty in the GetMore section. Its now removed.
+        12: The app is now shifted to its own Firebase Project, CBSE-6. Dynamic getMore screen
+        11: - GetMore now lists aedugami apps
+            - Database version changed to 3
+            - Database OnUpgrade Event corrected
+     */
+
+    defaultConfig {
+        applicationId "com.myAgeEducation.cbseClass6New"
+        minSdkVersion 26
+        targetSdkVersion 37
+        multiDexEnabled true
+        versionCode 20
+        versionName "1.20"
+    }
+
+    /*buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }*/
+
+    signingConfigs {
+        release {
+            storeFile file("../MySchoolMyTest_1.jks")
+            storePassword "duliajan"
+            keyAlias "myschoolmytest"
+            keyPassword "duliajan"
+        }
+    }
+
+    buildTypes {
+
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'com.google.android.gms:play-services-ads:25.4.0'
+    implementation project(":cbsecommon_aar-release")
+    implementation 'com.google.firebase:firebase-database:22.0.1'
+    implementation 'com.google.firebase:firebase-auth:24.2.0'
+    implementation 'com.squareup.picasso:picasso:2.71828' // do not change this, it creates some problems - Nand
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}

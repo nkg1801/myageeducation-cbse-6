@@ -1,0 +1,5 @@
+com.myAgeEducation.cbseClass6New.test.app-updated_navigation_xml-0 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.myAgeEducation.cbseClass6New.test.app-packageDebugAndroidTestResources-1 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+com.myAgeEducation.cbseClass6New.test.app-packageDebugAndroidTestResources-2 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+com.myAgeEducation.cbseClass6New.test.app-debugAndroidTest-3 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+gradleHome-0 C:\Users\innagup1\.gradle

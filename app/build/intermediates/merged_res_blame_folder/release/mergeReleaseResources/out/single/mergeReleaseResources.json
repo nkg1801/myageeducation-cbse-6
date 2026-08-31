@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_winner_list.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\winner_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_prize_list.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\prize_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_listitem_getmore.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\listitem_getmore.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout-large_points_settings.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout-large\\points_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_points_settings.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\points_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rating.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rating.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_registration_form.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\registration_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_aedugami_3.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\aedugami_3.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_star.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\star.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_mock_exams.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\mock_exams.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_subject_list.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\subject_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_aedugami_4.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\aedugami_4.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_share.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\share.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_rewards_table.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\rewards_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_books_cover.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\books_cover.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_sku_list.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\sku_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_aedugami_8.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\aedugami_8.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_update_registration_form.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\update_registration_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_score_history.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\score_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_head_championship_3_dozen.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\head_championship_3_dozen.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_dark_grey.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_dark_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_hcf_calculator.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\hcf_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout-large_customstyle2.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout-large\\customstyle2.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\menu_activity_main.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_ic_add_circle_green_24dp.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\ic_add_circle_green_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_contest_chapters.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\contest_chapters.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_aedugami_5.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\aedugami_5.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable-mdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_dark_green.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_dark_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout-large_customstyle.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout-large\\customstyle.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_quizicon.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\quizicon.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_contest_first_page.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\contest_first_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_score.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\score.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_dark_white.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_dark_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rs_balls.PNG.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rs_balls.PNG"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_questionpage.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\questionpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_computers.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\computers.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_gk.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\gk.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout-large_points_table.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout-large\\points_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_listitem_winners.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\listitem_winners.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable-hdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_getmore.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\getmore.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_red.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_ic_delete_red_24dp.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\ic_delete_red_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_maths.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\maths.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable-xhdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_mini_checkbox.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\mini_checkbox.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_mocktest.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\mocktest.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_listitem_subjectlist.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\listitem_subjectlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_points_table.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\points_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_blue.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_start_mode.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\start_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_ic_hcf_lcm_calculator.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\ic_hcf_lcm_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_contest_subject_list.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\contest_subject_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_customstyle.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\customstyle.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_getmore.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\getmore.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_seagate1tb.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\seagate1tb.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_aedugami_7.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\aedugami_7.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_playstore.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\playstore.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_science.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\science.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_books_cover_yellow.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\books_cover_yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\menu_rewards_settings.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\menu\\rewards_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_test_report.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\test_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_question_page.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\question_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_encyclopedia_human_body.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\encyclopedia_human_body.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_circular_progress.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\circular_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_mini.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_mini.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_login_signup.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\login_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_chapters.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\chapters.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\menu_rewards_table_context.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\menu\\rewards_table_context.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout-large_test_report.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout-large\\test_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_listitem_prize_list.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\listitem_prize_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_listitem_contest_subjectlist.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\listitem_contest_subjectlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_exit.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\exit.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_listitem_in_app_purchase.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\listitem_in_app_purchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_ic_clear_grey_24dp.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\ic_clear_grey_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_corner_selected.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_corner_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_socialstudies.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\socialstudies.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_books_cover_blue.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\books_cover_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_new_update_registration.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\new_update_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_ic_add_circle_grey_24dp.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\ic_add_circle_grey_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_purple.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_purple.xml"
+    },
+    {
+        "merged": "com.myAgeEducation.cbseClass6New.app-release-32:/layout_contest_first_page.xml.flat",
+        "source": "com.myAgeEducation.cbseClass6New.app-main-33:/layout/contest_first_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_photo_outline.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\photo_outline.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout-large_rewards_table.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout-large\\rewards_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_books_cover_green.png.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\books_cover_green.png"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\drawable_rounded_button_yellow.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\drawable\\rounded_button_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_contest_rules.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\contest_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\menu_points_table.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\menu\\points_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-release-32:\\layout_customstyle2.xml.flat",
+        "source": "C:\\Users\\innagup1\\.gradle\\daemon\\9.4.1\\com.myAgeEducation.cbseClass6New.app-main-33:\\layout\\customstyle2.xml"
+    }
+]

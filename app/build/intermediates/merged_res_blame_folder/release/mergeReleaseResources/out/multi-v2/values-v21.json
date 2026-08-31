@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.myAgeEducation.cbseClass6New.app-mergeReleaseResources-30:/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\innagup1\\.gradle\\caches\\9.4.1\\transforms\\9a6b43decb39f2d7544e9df7b56fdb40\\transformed\\jetified-credentials-play-services-auth-1.2.0-rc01\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "543"
+                    },
+                    "to": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "1530",
+                        "endLines": "29",
+                        "endColumns": "12",
+                        "endOffsets": "2018"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\innagup1\\.gradle\\caches\\9.4.1\\transforms\\9a544d3ef506f1cef16f0f4cf141bdea\\transformed\\core-1.10.1\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,30,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,941,1235,2023,2195",
+                        "endLines": "2,3,4,5,6,7,14,18,32,37",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,1062,1358,2190,2542"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\innagup1\\.gradle\\caches\\9.4.1\\transforms\\51c270603307c54bc37b72164f938dc5\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "610,778,1067,1363",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "773,936,1230,1525"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contest_flash">
+        <item>Participate and Win Exciting Prizes</item>
+        <item>No Participation fee</item>
+        <item>Contest begins 10th of every month</item>
+        <item>Contest ends last date of every month</item>
+        <item>Answer easy questions and be eligible to win prizes</item>
+        <item>Win Amazon Echo Dot - 3rd Generation</item>
+        <item>Win Portable Hard drives and many more items</item>
+        <item>Every month something to win</item>
+    </string-array>
+    <string-array name="indian_states">
+        <item>-Select your state-</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="mock_exam_list">
+        <item>Chapter Wise - Set 1</item>
+        <item>Chapter Wise - Set 2</item>
+        <item>Chapter Wise - Set 3</item>
+        <item>Chapter Wise - Set 4</item>
+        <item>Chapter Wise - Set 5</item>
+        <item>Chapter Wise - Set 6</item>
+    </string-array>
+    <string-array name="subjects">
+        <item>Science</item>
+        <item>Maths</item>
+        <item>Computers</item>
+        <item>GK</item>
+        <item>English</item>
+        <item>Moral Science</item>
+    </string-array>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorChapterHighlightColor">#FFD201</color>
+    <color name="colorLightBlack">#535353</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="rounded_button_backcolor">#D35400</color>
+    <color name="rounded_textview_color">#AAB7B8</color>
+    <color name="tag_line_text_color">#b0ab98</color>
+    <dimen name="about_apartment_textsize">13sp</dimen>
+    <dimen name="chapterbutton_height">100dp</dimen>
+    <dimen name="chapterbutton_height2">100dp</dimen>
+    <dimen name="chapterbutton_size">30dp</dimen>
+    <dimen name="chapterbutton_width">150dp</dimen>
+    <dimen name="getmore_image_size">100dp</dimen>
+    <dimen name="knowledge_contest_list_item_font_size">22sp</dimen>
+    <dimen name="offline_version_firstview_topmargin">40dp</dimen>
+    <dimen name="offline_version_textsize">15sp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="roundedtextview_radius">20dp</dimen>
+    <dimen name="subject_image_width">80dp</dimen>
+    <dimen name="subject_text_size">30sp</dimen>
+    <dimen name="tag_line_font_size">14sp</dimen>
+    <dimen name="top_margin_for_about_apartment">20dp</dimen>
+    <dimen name="winner_name_font_size">15sp</dimen>
+    <dimen name="winners_photo_height">120dp</dimen>
+    <dimen name="winners_photo_width">80dp</dimen>
+    <item name="TAG_SELECTION" type="id"/>
+    <string name="admob_banner_adunitid">ca-app-pub-4837855590190532/6824540563</string>
+    <string name="admob_banner_adunitid_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_name">CBSE - 6</string>
+    <string name="close">Close</string>
+    <string name="confirm_email">confirm your email address</string>
+    <string name="confirm_pin">Confirm 6-digit Pin</string>
+    <string name="contest_closed">Contest Closed</string>
+    <string name="contest_registration_form">Contest Registration Form</string>
+    <string name="default_web_client_id" translatable="false">704622752860-1d4d644f8d8f1f7mc73fpuqnsb6eobfa.apps.googleusercontent.com</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="email_address">email address</string>
+    <string name="enter_pin">Enter 6-digit Pin</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="firebase_database_url" translatable="false">https://cbse-6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">704622752860</string>
+    <string name="google_api_key" translatable="false">AIzaSyDdGbEOcQ2njBzxs9-7c50qujcFMnhs_TE</string>
+    <string name="google_app_id" translatable="false">1:704622752860:android:03edd1e35ff31831e82299</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDdGbEOcQ2njBzxs9-7c50qujcFMnhs_TE</string>
+    <string name="google_storage_bucket" translatable="false">cbse-6.appspot.com</string>
+    <string name="image">Image</string>
+    <string name="new_registration">New Registration</string>
+    <string name="optional_header">Optional Details:</string>
+    <string name="optional_note">The following details are OPTIONAL but will be required if you are declared a WINNER so that the prizes can be sent to you. Either you can enter them now, or later after you are declared a WINNER. These optional details can be provided later via the CONTEST REGISTRATION PAGE and then the UPDATE REGISTRATION DETAILS</string>
+    <string name="project_id" translatable="false">cbse-6</string>
+    <string name="register">Register</string>
+    <string name="registration_note">Note: Winners will be notified via this app as well as via email. Make sure you provide your correct email address.</string>
+    <string name="start_mock_test">Start Mock Test</string>
+    <string name="time_out">Time Out</string>
+    <string name="title_activity_main">CBSE - 6</string>
+    <string name="title_activity_offline_version">OfflineVersionActivity</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_test_report">Test Report</string>
+    <string name="town_city">Town/City</string>
+    <string name="update_registration">Update existing registration</string>
+    <string name="waiting_for_data_please_wait">Waiting for data, please wait...</string>
+    <string name="your_details_will_be_updated">Your details will be updated. Thank you</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

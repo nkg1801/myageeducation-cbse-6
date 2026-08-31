@@ -1,0 +1,9 @@
+com.myAgeEducation.cbseClass6New.app-pngs-0 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\generated\res\pngs\debug
+com.myAgeEducation.cbseClass6New.app-res-1 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\generated\res\processDebugGoogleServices
+com.myAgeEducation.cbseClass6New.app-updated_navigation_xml-2 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\generated\updated_navigation_xml\debug
+com.myAgeEducation.cbseClass6New.app-packageDebugResources-3 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.myAgeEducation.cbseClass6New.app-packageDebugResources-4 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.myAgeEducation.cbseClass6New.app-debug-5 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.myAgeEducation.cbseClass6New.app-debug-6 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\src\debug\res
+com.myAgeEducation.cbseClass6New.app-main-7 C:\mine\PlayStoreApps\CBSE-6\CBSE_Class_6\app\src\main\res
+gradleHome-0 C:\Users\innagup1\.gradle

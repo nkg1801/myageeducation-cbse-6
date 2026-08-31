@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.myAgeEducation.cbseClass6New.app-mergeDebugResources-30:/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\mine\\PlayStoreApps\\CBSE-6\\CBSE_Class_6\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endColumns": "77",
+                        "endOffsets": "92"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}
