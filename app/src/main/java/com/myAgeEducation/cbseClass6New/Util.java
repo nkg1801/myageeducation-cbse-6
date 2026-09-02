@@ -32,8 +32,6 @@ public class Util
 	static ArrayList<Question> filteredQuestions = new ArrayList<>();
 	static ArrayList<Question> revisionQuestions = new ArrayList<>();
 
-    //public static ArrayList questionNumbers = new ArrayList();
-
     static String UserUid = "";
     static String ClassName = "class-6";
     static String SyllabusAndGrade = "cbse-6";
@@ -57,23 +55,16 @@ public class Util
     static String SubjectRoot = "";
 
     ///================ Contest related============================================
-    public static String ContestRoot = "contest";
     public static String ContestClassRoot = "contest/" + SyllabusAndGrade;
     public static String ContestUserRoot = "contest/users";
-    public static String PrizeListRoot = "contest/prizes/";
-    public static String WinnerListRoot = "contest/winners";
     public static int TestTimeOut = 15; // timeout in minute
     public static boolean IsUserSignedIn = false;
     public static boolean IsContestTest = false;
-    public static String ContestChapters;
     public static int QuestionCountForContest = 25;
     public static LinkedHashMap SubjectTestAttemptDetailsMaps = new LinkedHashMap();
-    public static boolean IsMockTest = false;
     public static int CurrentDate = 0;
     public static Date ServerDate;
-    public static String ReasonForMockTest;
     public static ArrayList<PojoPrizeDetails> Pojo_prizeDetails = new ArrayList<>();
-    public static String ContestRules;
     //================== contest related data ends here===============================
 
     public static String AdDataRoot = SubjectRoot + "/extras/ads/activeAd";
@@ -98,18 +89,6 @@ public class Util
         Random random = new Random();
         return random.nextInt(9) + 11;
     }
-
-    /*
-    public static int getRandomQuestionNumber()
-    {
-        Random random = new Random();
-        int generatedRandomNumber;
-        generatedRandomNumber = random.nextInt(Util.questionNumbers.size());
-        Log.d("QuestionNumbersSize", String.valueOf(Util.questionNumbers.size()));
-        int questionNumber = ((Integer)(Util.questionNumbers.get(generatedRandomNumber))).intValue();
-        Util.questionNumbers.remove(generatedRandomNumber);
-        return questionNumber;
-    }*/
 
     public static String getCurrentDateTime()
     {
@@ -149,85 +128,5 @@ public class Util
         imageData = imageData.replace("data:image/png;base64,",""); // introduced in Release 1.19
         byte[] decodedString = Base64.decode(imageData, Base64.DEFAULT);
         return BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
-    }
-
-    public static void getServerTime()
-    {
-        Firebase.goOnline();
-        Log.d("Server_Time", "Getting Server Time");
-        DatabaseReference offsetRef = FirebaseDatabase.getInstance().getReference(".info/serverTimeOffset");
-        offsetRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-                //Firebase.goOffline();
-                double offset = snapshot.getValue(Double.class);
-                Double time = System.currentTimeMillis() + offset;
-
-
-                long temp = (new Double(time)).longValue();
-                Date resultDate = new Date(temp);
-                Calendar calendar = Calendar.getInstance();
-                calendar.setTime(resultDate);
-                CurrentDate = calendar.get(Calendar.DATE);
-
-                SimpleDateFormat sdf = new SimpleDateFormat("MMM-yyyy");
-                Util.ServerTimeInMonth = sdf.format(resultDate);
-
-                //SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
-                ServerDate = resultDate;
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                //Firebase.goOffline();
-            }
-        });
-    }
-
-    public static void getServerTime(final FirebaseCallback firebaseCallback)
-    {
-        Firebase.goOnline();
-        Log.d("Server_Time", "Getting Server Time");
-        DatabaseReference offsetRef = FirebaseDatabase.getInstance().getReference(".info/serverTimeOffset");
-        offsetRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-                //Firebase.goOffline();
-                double offset = snapshot.getValue(Double.class);
-                Double time = System.currentTimeMillis() + offset;
-
-                SimpleDateFormat sdf = new SimpleDateFormat("MMM-yyyy");
-                long temp = (new Double(time)).longValue();
-                Date resultDate = new Date(temp);
-                Calendar calendar = Calendar.getInstance();
-                calendar.setTime(resultDate);
-                CurrentDate = calendar.get(Calendar.DATE);
-                Util.ServerTimeInMonth = sdf.format(resultDate);
-                firebaseCallback.onCallback(Util.ServerTimeInMonth);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                //Firebase.goOffline();
-            }
-        });
-    }
-
-    public static ArrayList<Question> filterQuestions(ArrayList<Integer> chapters)
-    {
-        ArrayList<Question> filteredQuestions = new ArrayList<Question>();
-
-        for(int i = 0; i < Util.allQuestions.size(); i++)
-        {
-            Question question = Util.allQuestions.get(i);
-            int chapter = question.getChapter();
-
-            if(chapters.contains(chapter))
-            {
-                filteredQuestions.add(question);
-            }
-        }
-
-        return filteredQuestions;
     }
 }

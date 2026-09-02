@@ -24,8 +24,10 @@ public final class ImageCodeType
     public static final String METRO_MAP = "METRO-MAP";
     public static final String PATTERN_SEQUENCE = "PATTERN-SEQUENCE";
     public static final String EQUIVALENT_FRACTION = "EQ-FRAC";
+    public static final String FRACTION_COMPARISON = "FRAC-COMP";
     public static final String RESOURCE_IMAGE = "RESOURCE-IMAGE"; // should use ; as delimiter since resource name can have _
     public static final String TILE_COVERING = "TILE-COVERING";
+    public static final String PERIMETER_SHAPE = "PERIM-SHAPE";
 
     private ImageCodeType()
     {

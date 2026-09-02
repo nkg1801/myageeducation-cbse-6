@@ -70,7 +70,7 @@ public class MultipleQuestionTemplatesUtil {
     };
 
     private static final String[] templatesForCommonMultipleWordProblem = {
-            "%s, the %s, goes hunting every %dth day. %s, the %s, goes hunting every %dth day. If both of them start on the same day, on which days will they be hunting together?",
+            "%s, the %s, goes hunting every %s day. %s, the %s, goes hunting every %s day. If both of them start on the same day, on which days will they be hunting together?",
             "Two bells toll at intervals of %d and %d minutes respectively. If they toll together at 10:00 AM, at what time will they toll together again?",
             "Three traffic lights change after every %d, %d and %d seconds respectively. If they all change together at 8:00 AM, when will they change together again?",
             "Two friends, %s and %s, go for a run around a track. %s takes %d minutes to complete a lap, while %s takes %d minutes. If they start together, after how many minutes will they meet at the starting point again?"

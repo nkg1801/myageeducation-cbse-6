@@ -64,11 +64,10 @@ public class FractionStoryQuestionGenerator
         List<String> options = generateOptions(remaining);
         Question question = new Question();
         question.setQuestion(questionText);
-        question.setOption1(options.get(0));
-        question.setOption2(options.get(1));
-        question.setOption3(options.get(2));
-        question.setOption4(options.get(3));
+        
         question.setAnswer(String.valueOf(remaining));
+        com.myAgeEducation.cbseClass6New.utils.OptionUtils.setQuestionOptions(question, options);
+        
         return question;
     }
 
@@ -86,7 +85,7 @@ public class FractionStoryQuestionGenerator
 
     private static List<String> generateOptions(int answer)
     {
-        List<String> values = new ArrayList<>();
+        java.util.Set<String> values = new java.util.LinkedHashSet<>();
         values.add(String.valueOf(answer));
 
         if (answer > 1) {
@@ -95,7 +94,13 @@ public class FractionStoryQuestionGenerator
 
         values.add(String.valueOf(answer + 1));
         values.add(String.valueOf(answer + 2));
-        Collections.shuffle(values);
-        return values;
+        
+        while (values.size() < 4) {
+            values.add(String.valueOf(answer + 3 + values.size()));
+        }
+        
+        List<String> list = new ArrayList<>(values);
+        Collections.shuffle(list);
+        return list;
     }
 }

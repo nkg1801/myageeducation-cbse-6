@@ -67,11 +67,13 @@ public class FractionTrueFalseGenerator
                 {
                     numerator = randomNumber(1, 9);
 
+                    int attempts = 0;
                     do
                     {
+                        attempts++;
                         denominator = randomNumber(1, 9);
                     }
-                    while (denominator == numerator);
+                    while (denominator == numerator && attempts < 50);
                 }
 
                 statement = "The numerator is equal to the denominator.";
@@ -159,12 +161,13 @@ public class FractionTrueFalseGenerator
     private static int randomDifferentNumber(            int value)
     {
         int result;
-
+        int attempts = 0;
         do
         {
+            attempts++;
             result = randomNumber(1, 9);
         }
-        while (result == value);
+        while (result == value && attempts < 50);
 
         return result;
     }

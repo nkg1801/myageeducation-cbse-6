@@ -4,6 +4,7 @@ import static com.myAgeEducation.cbseClass6New.maths.datetimecalendar.QuestionTe
 import static com.myAgeEducation.cbseClass6New.maths.datetimecalendar.QuestionTemplate.MONTH_TYPE_TEMPLATES;
 import static com.myAgeEducation.cbseClass6New.maths.datetimecalendar.QuestionTemplate.WEEK_DAY_TYPE_TEMPLATES;
 import static com.myAgeEducation.cbseClass6New.maths.datetimecalendar.QuestionTemplate.YEAR_TEMPLATE;
+import com.myAgeEducation.cbseClass6New.maths.utils.NumberFormatUtil;
 import com.myAgeEducation.cbseClass6New.utils.ImageCodeType;
 import com.myAgeEducation.cbseClass6New.utils.OptionUtils;
 import com.myAgeEducation.cbsecommon.Question;
@@ -310,7 +311,7 @@ public class CalendarQuestionGenerator {
                         "The next day after %d %s %d is:",
                         "What day comes after %d %s %d?",
                         "Look at the calendar below. Which day comes after %d?",
-                        "Observe the calendar. What day comes after the %dth?"
+                        "Observe the calendar. What day comes after the %s?"
                 };
 
                 break;
@@ -323,7 +324,7 @@ public class CalendarQuestionGenerator {
                         "The previous day before %d %s %d is:",
                         "What day comes before %d %s %d?",
                         "Look at the calendar below. Which day comes before %d?",
-                        "Observe the calendar. What day comes before the %dth?"
+                        "Observe the calendar. What day comes before the %s?"
                 };
                 break;
 
@@ -355,7 +356,11 @@ public class CalendarQuestionGenerator {
                 break;
 
             default:
-                questionText = String.format(questionVariants[variant], date);
+                if (questionVariants[variant].contains("%s")) {
+                    questionText = String.format(questionVariants[variant], NumberFormatUtil.formatOrdinal(date));
+                } else {
+                    questionText = String.format(questionVariants[variant], date);
+                }
                 break;
         }
 

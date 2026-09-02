@@ -23,8 +23,10 @@ public class FractionAgeGenerator
     private static FractionAgeData generateAgePair(
             FractionAgeData.AgeRelationship relationship)
     {
-        while (true)
+        int attempts = 0;
+        while (attempts < 100)
         {
+            attempts++;
             int denominator =
                     DENOMINATORS[
                             RANDOM.nextInt(DENOMINATORS.length)];
@@ -47,6 +49,8 @@ public class FractionAgeGenerator
                         relationship);
             }
         }
+        // Fallback to a guaranteed valid pair
+        return new FractionAgeData(40, 10, 4, relationship);
     }
 
     private static boolean isValidAge(

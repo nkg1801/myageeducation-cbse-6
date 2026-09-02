@@ -194,7 +194,9 @@ public class SubjectList extends Activity
             {
                 if(Util.Subject.equalsIgnoreCase("maths"))
                 {
-                    openChapters("set1");
+                    Intent intent = new Intent();
+                    intent.setClassName(Util.PACKAGE_NAME, Util.PACKAGE_NAME + ".QuestionLoaderActivity");
+                    startActivity(intent);
                 }
                 else {
                     GetDatabaseLocation();
@@ -843,14 +845,10 @@ public class SubjectList extends Activity
                         _randomQuestionSet = random.nextInt(downloadedSets.size());
                         _randomQuestionSet = downloadedSets.get(_randomQuestionSet);
 
-                        runnable = new Runnable(){
-                            @Override
-                            public void run()
-                            {
-                                runnableStarted = true;
-                                readQuestionsFromLocalDatabase();
-                                runnableStarted = false;
-                            }
+                        runnable = () -> {
+                            runnableStarted = true;
+                            readQuestionsFromLocalDatabase();
+                            runnableStarted = false;
                         };
                         new Thread(runnable).start();
                     }
@@ -1044,27 +1042,24 @@ public class SubjectList extends Activity
 
     private void showProgressDialog(final String message)
     {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    ringProgressDialog.setTitle("Please wait ...");
-                    ringProgressDialog.setMessage(message);
-                    ringProgressDialog.setCancelable(false);
-                    ringProgressDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                        }
-                    });
-
-                    if (ringProgressDialog != null && (!ringProgressDialog.isShowing())) {
-                        ringProgressDialog.show();
-                        ringProgressDialog.setCancelable(true);
+        runOnUiThread(() -> {
+            try {
+                ringProgressDialog.setTitle("Please wait ...");
+                ringProgressDialog.setMessage(message);
+                ringProgressDialog.setCancelable(false);
+                ringProgressDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
                     }
+                });
+
+                if (ringProgressDialog != null && (!ringProgressDialog.isShowing())) {
+                    ringProgressDialog.show();
+                    ringProgressDialog.setCancelable(true);
                 }
-                catch (Exception e)
-                {
-                }
+            }
+            catch (Exception e)
+            {
             }
         });
     }

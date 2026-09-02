@@ -30,7 +30,9 @@ public class EquivalentFractionQuestionGenerator {
         List<String> options = new ArrayList<>();
         options.add(correctAnswer);
 
-        while (options.size() < 4) {
+        int attempts = 0;
+        while (options.size() < 4 && attempts < 100) {
+            attempts++;
             int d = 3 + RANDOM.nextInt(20);
             int n = 1 + RANDOM.nextInt(d - 1);
             
@@ -138,7 +140,9 @@ public class EquivalentFractionQuestionGenerator {
         options.add((eqNumerator * 2) + "/" + eqDenominator);
 
         // Ensure unique options
-        while (options.size() < 4 || new java.util.HashSet<>(options).size() < 4) {
+        int attempts = 0;
+        while ((options.size() < 4 || new java.util.HashSet<>(options).size() < 4) && attempts < 100) {
+            attempts++;
             options.add(RANDOM.nextInt(10) + "/" + (RANDOM.nextInt(10) + 11));
         }
 

@@ -12,6 +12,8 @@ import com.myAgeEducation.cbseClass6New.maths.decimals.DecimalGridImageGenerator
 import com.myAgeEducation.cbseClass6New.maths.decimals.DecimalImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.divisions.facts.DivisionPictureImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.fractions.EquivalentFractionImageGenerator;
+import com.myAgeEducation.cbseClass6New.maths.fractions.FractionChoiceGenerator;
+import com.myAgeEducation.cbseClass6New.maths.fractions.FractionComparisonImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.fractions.FractionImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.fractions.NumericFractionImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.mappingskills.DirectionDistanceImageGenerator;
@@ -19,6 +21,7 @@ import com.myAgeEducation.cbseClass6New.maths.mappingskills.MetroMapImageGenerat
 import com.myAgeEducation.cbseClass6New.maths.mappingskills.NeighborhoodMapImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.mappingskills.ZooMapImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.pattern.PatternSequenceImageGenerator;
+import com.myAgeEducation.cbseClass6New.maths.perimeterarea.PerimeterShapeImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.perimeterarea.TileCoveringImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.pictograph.PictographImageGenerator;
 import com.myAgeEducation.cbseClass6New.maths.tabularquestions.TableImageGenerator;
@@ -30,39 +33,76 @@ public class DynamicImageDispatcher {
 
         if (imageCode.startsWith(ImageCodeType.BARCHART)) {
             return BarChartImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.CIRCLE_GRAPH)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.CIRCLE_GRAPH)) {
             return CircleGraphImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.PICTOGRAPH)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.PICTOGRAPH)) {
             return PictographImageGenerator.generate(context, imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.ANGLE)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.ANGLE)) {
             return AngleImageGenerator.generateImage(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.CLOCK)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.CLOCK)) {
             return ClockImageGenerator.generateClockImage(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.CALENDAR)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.CALENDAR)) {
             return CalendarImageGenerator.generateCalendarImage(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.DECIMAL_GRID)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.DECIMAL_GRID)) {
             return DecimalGridImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.DECIMAL_IMAGE)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.DECIMAL_IMAGE)) {
             return DecimalImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.TABLE)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.TABLE)) {
             return TableImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.ZOO_MAP)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.ZOO_MAP)) {
             return ZooMapImageGenerator.generate(context, imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.NEIGHBORHOOD_MAP)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.NEIGHBORHOOD_MAP)) {
             return NeighborhoodMapImageGenerator.generate(context, imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.METRO_MAP)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.METRO_MAP)) {
             return MetroMapImageGenerator.generate(context, imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.PATTERN_SEQUENCE)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.PATTERN_SEQUENCE)) {
             return PatternSequenceImageGenerator.generate(context, imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.EQUIVALENT_FRACTION)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.EQUIVALENT_FRACTION)) {
             return EquivalentFractionImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.NUMERIC_FRACTION)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.FRACTION_COMPARISON)) {
+            return FractionComparisonImageGenerator.generate(imageCode);
+        }
+        if (imageCode.startsWith(ImageCodeType.NUMERIC_FRACTION)) {
             return NumericFractionImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith(ImageCodeType.TILE_COVERING)) {
+        }
+        if (imageCode.startsWith(ImageCodeType.TILE_COVERING)) {
             return TileCoveringImageGenerator.generate(imageCode);
-        } else if (imageCode.startsWith("SYMMETRY")) {
+        }
+        if (imageCode.startsWith(ImageCodeType.PERIMETER_SHAPE)) {
+            return PerimeterShapeImageGenerator.generate(imageCode);
+        }
+        if (imageCode.startsWith("SYMMETRY")) {
             return SymmetryImageGenerator.generate(imageCode);
         }
+        if(imageCode.startsWith(ImageCodeType.SHAPE_PART_FRACTION))
+        {
+            return FractionImageGenerator.generateFractionImage(imageCode);
+        }
+        if(imageCode.startsWith(ImageCodeType.DIVISION))
+        {
+            return DivisionPictureImageGenerator.generate(imageCode);
+        }
+        if(imageCode.startsWith(ImageCodeType.FRACTION_CHOICE)){
+            return FractionChoiceGenerator.generateBitmap(imageCode);
+        }
+        if(imageCode.startsWith(ImageCodeType.DISTANCE_GRID_QUIZ)) {
+            return DirectionDistanceImageGenerator.generate(context, imageCode);
+        }
+
         
         return null;
     }

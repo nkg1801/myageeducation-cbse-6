@@ -106,12 +106,14 @@ public class FractionSeriesGenerator
     private static void makeNeitherAscendingNorDescending(
             FractionData[] series)
     {
+        int attempts = 0;
         do
         {
+            attempts++;
             shuffle(series);
 
-        } while (isAscending(series) ||
-                isDescending(series));
+        } while ((isAscending(series) ||
+                isDescending(series)) && attempts < 100);
     }
 
     private static boolean isAscending(FractionData[] series)

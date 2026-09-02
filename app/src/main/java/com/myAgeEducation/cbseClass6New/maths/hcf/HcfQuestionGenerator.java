@@ -49,7 +49,8 @@ public class HcfQuestionGenerator {
         options.clear();
         options.add(answer);
         while (options.size() < 4) {
-            int distractor = RANDOM.nextInt(Math.min(a, b)) + 1;
+            int range = Math.max(10, Math.min(a, b));
+            int distractor = RANDOM.nextInt(range) + 1;
             if (!options.contains(String.valueOf(distractor))) {
                 options.add(String.valueOf(distractor));
             }
@@ -85,7 +86,8 @@ public class HcfQuestionGenerator {
         List<String> options = new ArrayList<>();
         options.add(answer);
         while (options.size() < 4) {
-            int distractor = RANDOM.nextInt(Math.min(Math.min(a, b), c)) + 1;
+            int range = Math.max(10, Math.min(Math.min(a, b), c));
+            int distractor = RANDOM.nextInt(range) + 1;
             if (!options.contains(String.valueOf(distractor))) {
                 options.add(String.valueOf(distractor));
             }

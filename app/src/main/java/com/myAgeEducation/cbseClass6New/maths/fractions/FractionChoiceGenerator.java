@@ -56,12 +56,13 @@ public class FractionChoiceGenerator {
                 continue;
 
             FractionData wrong;
-
+            int attempts = 0;
             do {
+                attempts++;
                 wrong = FractionImageGenerator.randomFraction();
 
             } while (used.contains(
-                    wrong.numerator + "/" + wrong.denominator));
+                    wrong.numerator + "/" + wrong.denominator) && attempts < 50);
 
             used.add(wrong.numerator + "/" + wrong.denominator);
 
@@ -316,13 +317,14 @@ public class FractionChoiceGenerator {
 
         // Generate one wrong fraction
         FractionData wrong;
-
+        int attempts = 0;
         do
         {
+            attempts++;
             wrong = FractionImageGenerator.randomFraction();
 
         } while (wrong.numerator == correctFraction.numerator &&
-                wrong.denominator == correctFraction.denominator);
+                wrong.denominator == correctFraction.denominator && attempts < 50);
 
         FractionImageGenerator.FractionShape wrongShape =
                 FractionImageGenerator.FractionShape.values()[

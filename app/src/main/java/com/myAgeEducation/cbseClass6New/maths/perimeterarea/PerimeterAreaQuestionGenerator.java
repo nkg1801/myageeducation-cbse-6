@@ -1,6 +1,7 @@
 package com.myAgeEducation.cbseClass6New.maths.perimeterarea;
 
 import com.myAgeEducation.cbseClass6New.maths.utils.PersonNameUtil;
+import com.myAgeEducation.cbseClass6New.utils.ImageCodeType;
 import com.myAgeEducation.cbseClass6New.utils.OptionUtils;
 import com.myAgeEducation.cbsecommon.Question;
 
@@ -16,7 +17,7 @@ public class PerimeterAreaQuestionGenerator {
     private static final Random RANDOM = new Random();
 
     public static Question generateQuestion() {
-        int type = RANDOM.nextInt(13);
+        int type = RANDOM.nextInt(15);
         PerimeterAreaQuestionData data;
         switch (type) {
             case 1: data = generatePerimeterSquareQuestion(); break;
@@ -31,9 +32,91 @@ public class PerimeterAreaQuestionGenerator {
             case 10: data = generateVolumeCubeQuestion(); break;
             case 11: data = generateVolumeCuboidQuestion(); break;
             case 12: data = generateGridDesignAreaQuestion(); break;
+            case 13: data = generatePerimeterFromShapeQuestion(); break;
+            case 14: data = generateMissingSideFromPerimeterQuestion(); break;
             default: data = generateConceptQuestion();
         }
         return convertToQuestion(data);
+    }
+
+    private static PerimeterAreaQuestionData generatePerimeterFromShapeQuestion() {
+        return generatePerimeterShapeLogic(false);
+    }
+
+    private static PerimeterAreaQuestionData generateMissingSideFromPerimeterQuestion() {
+        return generatePerimeterShapeLogic(true);
+    }
+
+    private static PerimeterAreaQuestionData generatePerimeterShapeLogic(boolean findMissing) {
+        int shapeType = RANDOM.nextInt(4);
+        String vertices;
+        int[] sideLengths;
+        String unit = "cm";
+
+        switch (shapeType) {
+            case 0: // Triangle
+                vertices = "100,400|300,100|500,400";
+                sideLengths = new int[]{10 + RANDOM.nextInt(10), 10 + RANDOM.nextInt(10), 10 + RANDOM.nextInt(10)};
+                break;
+            case 1: // Rectangle
+                vertices = "100,100|500,100|500,300|100,300";
+                int l = 15 + RANDOM.nextInt(10);
+                int w = 8 + RANDOM.nextInt(6);
+                sideLengths = new int[]{l, w, l, w};
+                break;
+            case 2: // User Shape (6 sides)
+                vertices = "100,200|200,100|400,100|500,200|500,400|100,400";
+                int top = 8 + RANDOM.nextInt(5);
+                int slant = 5 + RANDOM.nextInt(5);
+                int side = 10 + RANDOM.nextInt(10);
+                int bottom = top + 2 * 3; // heuristic for drawing
+                sideLengths = new int[]{slant, top, slant, side, bottom, side};
+                break;
+            default: // Regular Pentagon (roughly)
+                vertices = "300,100|500,250|450,450|150,450|100,250";
+                int s = 5 + RANDOM.nextInt(10);
+                sideLengths = new int[]{s, s, s, s, s};
+                break;
+        }
+
+        int perimeter = 0;
+        for (int len : sideLengths) perimeter += len;
+
+        StringBuilder labels = new StringBuilder();
+        int missingIdx = findMissing ? RANDOM.nextInt(sideLengths.length) : -1;
+        String answer = "";
+
+        for (int i = 0; i < sideLengths.length; i++) {
+            if (i == missingIdx) {
+                labels.append("x");
+                answer = String.valueOf(sideLengths[i]);
+            } else {
+                labels.append(sideLengths[i]).append(" ").append(unit);
+            }
+            if (i < sideLengths.length - 1) labels.append("|");
+        }
+
+        String question;
+        if (findMissing) {
+            question = "The perimeter of the shape given below is " + perimeter + " " + unit + ". Find the value of the missing side 'x'.";
+        } else {
+            question = "Find the perimeter of the shape given in the image below.";
+            answer = perimeter + " " + unit;
+        }
+
+        List<String> options = new ArrayList<>();
+        options.add(answer);
+        int ansVal = Integer.parseInt(answer.split(" ")[0]);
+        while(options.size() < 4) {
+            int off = (RANDOM.nextInt(10) + 1) * (RANDOM.nextBoolean() ? 1 : -1);
+            String opt = (ansVal + off) + (findMissing ? "" : " " + unit);
+            if (!options.contains(opt)) options.add(opt);
+        }
+        Collections.shuffle(options);
+
+        PerimeterAreaQuestionData qData = new PerimeterAreaQuestionData(question, answer, options.toArray(new String[0]), findMissing ? PerimeterAreaQuestionType.MISSING_SIDE_FROM_PERIMETER : PerimeterAreaQuestionType.PERIMETER_FROM_SHAPE);
+        qData.setImageData(ImageCodeType.PERIMETER_SHAPE + "_VERTICES=" + vertices + "_LABELS=" + labels.toString());
+        return qData;
     }
 
     private static PerimeterAreaQuestionData generateGridDesignAreaQuestion() {

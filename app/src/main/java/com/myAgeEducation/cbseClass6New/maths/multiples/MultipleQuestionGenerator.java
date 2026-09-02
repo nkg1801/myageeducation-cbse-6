@@ -1,5 +1,6 @@
 package com.myAgeEducation.cbseClass6New.maths.multiples;
 
+import com.myAgeEducation.cbseClass6New.maths.utils.NumberFormatUtil;
 import com.myAgeEducation.cbseClass6New.utils.OptionUtils;
 import com.myAgeEducation.cbsecommon.Question;
 
@@ -203,7 +204,7 @@ public class MultipleQuestionGenerator {
             while (n1 == n2) n2 = 3 + RANDOM.nextInt(4);
             lcm = MultipleOptionUtils.getLCM(n1, n2);
             
-            question = String.format(templates[0], name1, animal1, n1, name2, animal2, n2);
+            question = String.format(templates[0], name1, animal1, NumberFormatUtil.formatOrdinal(n1), name2, animal2, NumberFormatUtil.formatOrdinal(n2));
             StringBuilder sb = new StringBuilder();
             for (int i = 1; i <= 3; i++) {
                 sb.append(lcm * i);

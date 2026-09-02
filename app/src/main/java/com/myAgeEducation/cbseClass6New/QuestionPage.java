@@ -3,6 +3,7 @@ package com.myAgeEducation.cbseClass6New;
 import android.content.DialogInterface;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -15,6 +16,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -105,6 +107,7 @@ public class QuestionPage extends Activity
 
 		addInterstitialAd();
 		addBannerAd();
+		setTextViewProperties();
 
 		sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
 
@@ -203,10 +206,35 @@ public class QuestionPage extends Activity
 
 	private void setTextViewProperties()
 	{
+		TextView tv = findViewById(R.id.textViewQuestionNumber);
+		tv.setTextColor(Color.WHITE);
+		tv.setBackgroundColor(Color.DKGRAY);
+
+		tv = findViewById(R.id.textViewTimer);
+		tv.setTextColor(Color.WHITE);
+		tv.setBackgroundColor(Color.DKGRAY);
+
+		TextView tvScore = findViewById(R.id.textViewScore);
+		tvScore.setTextColor(Color.WHITE);
+		tvScore.setBackgroundColor(Color.DKGRAY);
+
+		tv = findViewById(R.id.textViewSubject);
+		tv.setTextColor(Color.WHITE);
+		tv.setBackgroundColor(Color.DKGRAY);
 	}
 
 	private void setQuestionTextColor()
 	{
+		TextView textView = findViewById(R.id.textViewQuestion);
+
+		if(isRevision.equals("true"))
+		{
+			textView.setTextColor(Color.RED);
+		}
+		else
+		{
+			textView.setTextColor(Color.BLUE);
+		}
 	}
 
 	private void setActivityTitle()
@@ -445,10 +473,11 @@ public class QuestionPage extends Activity
 		if (dynamicBitmap != null) {
 			img.setImageBitmap(dynamicBitmap);
 			img.setVisibility(View.VISIBLE);
+			setImageViewWidth(img, dynamicBitmap.getWidth());
 			return;
 		}
 
-		if(imageData.length() < 20) {
+		if(imageData.length() < 1000) {
 			int resourceIdentifier = getResources().getIdentifier(imageData, "drawable", getPackageName());
 			if(resourceIdentifier != 0)
 			{
@@ -460,6 +489,17 @@ public class QuestionPage extends Activity
 			img.setImageBitmap(loadBitmapFromBase64Encoding(imageData));
 			img.setVisibility(View.VISIBLE);
 		}
+	}
+
+	private void setImageViewWidth(ImageView img, int bitmapWidth)
+	{
+		int availableWidth =
+				getResources().getDisplayMetrics().widthPixels
+						- (int)(16 * getResources().getDisplayMetrics().density);
+		ViewGroup.LayoutParams params = img.getLayoutParams();
+		params.width = Math.min(bitmapWidth, availableWidth);
+		params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
+		img.setLayoutParams(params);
 	}
 
 	private void setSupportiveText(String supportiveText)
