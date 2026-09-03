@@ -6,6 +6,8 @@ android {
     compileSdkVersion 37
 
     /*Version Details:
+        21: AI generated questions added for Maths
+        20: discarded
         19: Cuemaths ads removed
         18: V17 removed from play store because of IttyBitty ad in the GetMore Section, so this version
         17: Quereka lite ad integrated
@@ -24,8 +26,8 @@ android {
         minSdkVersion 26
         targetSdkVersion 37
         multiDexEnabled true
-        versionCode 20
-        versionName "1.20"
+        versionCode 21
+        versionName "1.21"
     }
 
     /*buildTypes {
