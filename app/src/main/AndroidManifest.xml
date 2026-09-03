@@ -115,5 +115,7 @@
         <activity android:name=".HcfCalculatorActivity"
                   android:label="LCM/HCF Calculator"
                   />
+        <activity android:name=".QuestionLoaderActivity"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
     </application>
 </manifest>
