@@ -17,21 +17,14 @@ public class FractionOfNumberQuestionGenerator
         String questionText = generateQuestionText(data);
 
         List<String> options =
-                OptionUtils.generateNumberOptions(
+                com.myAgeEducation.cbseClass6New.utils.OptionUtils.generateNumberOptions(
                         data.answer,
                         data.total);
 
         Question question = new Question();
-
         question.setQuestion(questionText);
-
-        question.setOption1(options.get(0));
-        question.setOption2(options.get(1));
-        question.setOption3(options.get(2));
-        question.setOption4(options.get(3));
-
-        question.setAnswer(
-                String.valueOf(data.answer));
+        com.myAgeEducation.cbseClass6New.utils.OptionUtils.setQuestionOptions(question, options);
+        question.setAnswer(String.valueOf(data.answer));
 
         return question;
     }

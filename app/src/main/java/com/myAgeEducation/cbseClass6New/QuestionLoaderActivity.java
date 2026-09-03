@@ -416,53 +416,53 @@ public class QuestionLoaderActivity extends Activity {
             switch(type)
             {
                 case FRACTION_SERIES:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_SERIES");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionSeriesQuestionGenerator.generateQuestion();
                     break;
 
                 case STORY_TYPE:
-                    updateLoadingText("Loading questions for Chapter #7 - STORY_TYPE");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionStoryQuestionGenerator.generateRemainingQuestion();
                     break;
 
                 case FRACTION_WITH_AGE:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_WITH_AGE");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionAgeQuestionGenerator.generateQuestion();
                     break;
 
                 case FRACTION_OF_NUMBER:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_OF_NUMBER");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionOfNumberQuestionGenerator.generateQuestion();
                     break;
 
                 case FRACTION_OF_MEASUREMENT_DATA:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_OF_MEASUREMENT_DATA");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionOfMeasurementQuestionGenerator.generateQuestion();
                     break;
 
                 case FRACTION_TIME_STORY:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_TIME_STORY");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionTimeStoryQuestionGenerator.generateQuestion();
                     break;
 
                 case FRACTION_TRUE_FALSE:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_TRUE_FALSE");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionTrueFalseQuestionGenerator.generateQuestion();
                     break;
 
                 case FRACTION_CONCEPTS:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_CONCEPTS");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionConceptQuestionGenerator.generateQuestion();
                     break;
 
                 case EQUIVALENT_FRACTIONS:
                     //checked
-                    updateLoadingText("Loading questions for Chapter #7 - EQUIVALENT_FRACTIONS");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = EquivalentFractionQuestionGenerator.generateQuestion();
                     break;
 
                 case FRACTION_COMPARISON:
-                    updateLoadingText("Loading questions for Chapter #7 - FRACTION_COMPARISON");
+                    updateLoadingText("Loading questions for Chapter #7");
                     question = FractionComparisonQuestionGenerator.generateQuestion();
                     break;
 

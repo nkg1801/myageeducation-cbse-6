@@ -113,14 +113,8 @@ public class FractionOfMeasurementQuestionGenerator
         List<String> options = generateOptions(answerValue, data.baseValue, data.answerUnit);
 
         Question question = new Question();
-
         question.setQuestion(questionText);
-
-        question.setOption1(options.get(0));
-        question.setOption2(options.get(1));
-        question.setOption3(options.get(2));
-        question.setOption4(options.get(3));
-
+        com.myAgeEducation.cbseClass6New.utils.OptionUtils.setQuestionOptions(question, options);
         question.setAnswer(answer);
 
         return question;
@@ -172,11 +166,13 @@ public class FractionOfMeasurementQuestionGenerator
 
         // Safety fallback
         int step = Math.max(1, correctAnswer / 2);
-
+        int i = 1;
         while (values.size() < 4)
         {
-            int value = correctAnswer + step * values.size();
+            int value = correctAnswer + step * i;
             values.add(value);
+            i++;
+            if (i > 100) break; // Emergency break
         }
 
         List<Integer> valueList = new ArrayList<>(values);

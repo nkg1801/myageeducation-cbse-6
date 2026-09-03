@@ -725,7 +725,7 @@ public class SubjectList extends Activity
 
 	public void openChapters(String questionSet)
 	{
-        if(Util.Subject.equalsIgnoreCase("maths")) {
+        /*if(Util.Subject.equalsIgnoreCase("maths")) {
             Util.allQuestions.clear();
             addGeneratedQuestionsForMaths();
         }
@@ -736,7 +736,7 @@ public class SubjectList extends Activity
         else if(Util.Subject.equalsIgnoreCase("computers"))
         {
             //addComputerQuestions();
-        }
+        }*/
 
 		Intent chapterIntent = new Intent();
 		chapterIntent.setClassName(Util.PACKAGE_NAME, Util.PACKAGE_NAME + ".Chapters");
@@ -970,7 +970,7 @@ public class SubjectList extends Activity
 		Log.d("CBSE_QuestionSet", String.valueOf(_randomQuestionSet));
 		Log.d("CBSE_QuestionCount", String.valueOf(Util.allQuestions.size()));
 
-		if(Util.allQuestions.size() > 0) {
+		if(!Util.allQuestions.isEmpty()) {
 			{
 				openChapters("set" + String.valueOf(_randomQuestionSet));
 			}
